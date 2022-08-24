@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <!--custom css-->
+    <link href="index.css" rel="stylesheet" />
+    <link href="general.css" rel="stylesheet" />
+    <link href="other-pages.css" rel="stylesheet" />
+    <script>
+        $(function(){ $("head").load("head.html", function() { pageNavSetup(); });  });
+    </script>
+  </head>
+
+<body>
+<div id="content" style="display: none;">
+    <div id="banner"></div>
+    <div id="header"></div>
+    <div class="container-fluid">
+
+        <div class="container px-sm-3">
+
+            <div class="row my-5">
+                <div class="col">
+                    <div id="page-title" class="d-none">faq</div> <!-- for header highlight -->
+                    <h1 class="my-2 my-sm-4">Frequently Asked Questions</h1>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+
+                <div class="mb-4 h3 faq-title" id="headingOne"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is PL&sup2;?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseOne" class="collapse show mb-4" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    PL&sup2; is a project addressing the opportunity gap for marginalized students through personal mentoring and tutoring with artificial intelligence learning software.
+                </div>
+                <hr>
+                <div class="mb-4 h3 faq-title collapsed" id="headingTwo"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    What kinds of resources does PL&sup2; provide for students and for mentors?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseTwo" class="collapse mb-4" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  PL&sup2; provides resources in the following categories:
+                  <ul>
+                    <li>Building relationships</li>
+                    <li>Supporting effort</li>
+                    <li>Managing emotions</li>
+                    <li>Maintaining effort</li>
+                    <li>Building student understanding</li>
+                    <li>Building mentor understanding</li>
+                    <li>Supporting literacy</li>
+                    <li>Navigating technology</li>
+                    <li>Regulating learning</li>
+                  </ul>
+                </div>
+                <hr>
+
+                <div class="mb-4 h3 faq-title collapsed" id="headingThree"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    How does PL&sup2; help track my student's progress over time? Where can I see this data?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseThree" class="collapse mb-4" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    On the student pages, the student's data from the Ed Tech is available on the Student Progress tab. Data is available in a list or graph form. For the latter, data from all students can be displayed simultaneously.
+                </div>
+                <hr>
+
+                <div class="mb-4 h3 faq-title collapsed" id="headingFour"  data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    How can I find resources for a specific topic?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseFour" class="collapse mb-4" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    Users can click on 'Mentors' or 'Students' in the Resources portion of the left-hand navigation. Here the resources are organized by resource category and then strategy. Users can also use the Resource Assistant (accessed from the left-hand navigation or the students pages). Here you answer specific questions (as many as you want) that lead to associated resources.
+                </div>
+                <hr>
+
+                <div class="mb-4 h3 faq-title collapsed" id="headingFive"  data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                    How can I use these resources to help my students?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseFive" class="collapse mb-4" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    The resources can be assigned to students. Mentors can assign resources to students on the student's page or via the Resource Assistant. Mentors can also work through them together on a shared device.
+                </div>
+                <hr>
+
+                <div class="mb-4 h3 faq-title collapsed" id="headingSix"  data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                    How do I use the "reflection" feature and when should I use it? When should I use the resources?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseSix" class="collapse mb-4" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    On each student page, there is a reflection tab. Simply hit the New Reflection button and answer questions. All but the first are optional. Once you create a reflection, you will see a log of all reflections over time and an option to export the reflections to a csv file. We recommend using the reflection feature after each session with a student. This is a great way to track non-Ed Tech data (e.g., motivation, emotions, engagement) during each session.
+                </div>
+                <hr>
+
+                <div class="mb-4 h3 faq-title collapsed" id="headingSeven"  data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                    How does PL&sup2; fit into my routine when preparing for my students?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseSeven" class="collapse mb-4" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                    We recommend that mentors use PL&sup2; when preparing for upcoming sessions and to reflect after meeting with students (for the latter see the previous question). For preparing, it is important for mentors to consider their status, Ed Tech data related to effort and progress, and assign resources to address any issues students may have.
+                </div>
+                <hr>
+
+                <div class="mb-4 h3 faq-title collapsed" id="headingEight"  data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                    How do I assign students to mentors in PL&sup2;?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseEight" class="collapse mb-4" aria-labelledby="headingEight" data-parent="#accordionExample">
+                    Administrators can click on the Admin link in the left-hand navigation menu to add one or more students (or mentors). You will have the option to assign students to mentors when you enter in their information, or to assign later (or reassign) by clicking on the student name and choosing a mentor. Mentors cannot add students directly.
+                </div>
+                <hr>
+                
+                <div class="mb-4 h3 faq-title collapsed" id="headingNine"  data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                    What changed with the latest release of the PL&sup2; app?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseNine" class="collapse mb-4" aria-labelledby="headingNine" data-parent="#accordionExample">
+                    The version 3.0 release notes are available <a target="_blank" href="release-notes.html">here</a>.
+                </div>
+                <hr>
+
+                <div class="mb-4 h3 faq-title collapsed" id="headingTen"  data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                    How do users log into the PL&sup2; app?<i class="fa fa-caret-down"></i> <i class="fa fa-caret-right"></i>
+                </div>
+                <div id="collapseTen" class="collapse mb-4" aria-labelledby="headingTen" data-parent="#accordionExample">
+                  PL&sup2; uses Google for authentication of all user accounts, both mentors and students. This means that all users will need to have a Google account to use PL&sup2;. If you do not have a Google account click <a target="_blank" href="https://support.google.com/accounts/answer/27441">here</a> to create one.<br/>
+                  <b>Note that Google login requires that the browser being used must allow pop-ups.</b>
+                </div>
+                <hr>
+            </div>
+
+            <div class="row my-5">
+                <div class="col p-0">
+                    <div id="page-title" class="d-none">faq</div> <!-- for header highlight -->
+                    <h1 class="my-2 my-sm-4">Instructional Videos</h1>
+                </div>
+            </div>
+
+            <div class="row my-5">
+                <div class="col instr-videos col-lg-8 p-0 mx-auto">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-12 col-md-6">
+                            <div class="h5 font-weight-bold">Getting Started with PL&sup2;</div>
+                            <p>On the right is an overview video of PL&sup2; (Fall 2021) covering the
+                                mentor dashboard, individual student pages, and resources. PL&sup2; is
+                                still in development and is continuously undergoing changes &mdash;
+                                please check back or reach out about future updates! (Fall 2021)</p>
+                        </div>
+                        <div class="col-10 col-md-6 embed-responsive embed-responsive-21by9">
+                            <iframe title="Getting Started with PL2" class="embed-responsive-item" src="https://youtube.com/embed/llA8LsajKxQ" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center py-5">
+                        <div class="col-12 col-md-6">
+                            <div class="h5 font-weight-bold">Resource Assistant</div>
+                            <p>This next video covers the use of the PL&sup2; Resource Assistant. With
+                                the Resource Assistant, you can choose to answer one or more
+                                questions about your student, the answers of which are used to guide you
+                                to a resource that you can use to help the student. (Added Fall 2021)</p>
+                        </div>
+                        <div class="col-10 col-md-6 embed-responsive embed-responsive-21by9">
+                            <iframe title="Using the Resource Assistant" class="" src="https://www.youtube.com/embed/jjSluuTLjNM" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="row py-3">
+                        <div class="col-12">
+                            <div class="h5 font-weight-bold">Navigating PL&sup2;</div>
+                            <p>This next series of short videos cover different aspects of PL&sup2;:
+                                completing the Foundational Questions as you get to know your
+                                student, navigating student progress using their EdTech data,
+                                adding Reflections after a session with your student or to plan
+                                for your next session, and navigating and
+                                assigning Resources to your students. (Added Fall 2021)</p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-10 col-md-3 m-2 embed-responsive embed-responsive-4by3">
+                            <iframe title="Foundational Questions" class="embed-responsive-item" src="https://www.youtube.com/embed/1CLYnncuVJ8" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="col-10 col-md-3 m-2 embed-responsive embed-responsive-4by3">
+                            <iframe title="Navigating Student Progress" class="embed-responsive-item" src="https://www.youtube.com/embed/qibXFHqGeKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="col-10 col-md-3 m-2 embed-responsive embed-responsive-4by3">
+                            <iframe title="Adding Reflections" class="embed-responsive-item" src="https://www.youtube.com/embed/NeMiPbMHkOU" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="col-10 col-md-3 m-2 embed-responsive embed-responsive-4by3">
+                            <iframe title="Navigating Resources" class="embed-responsive-item" src="https://www.youtube.com/embed/ltxUkcnS7_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="col-10 col-md-3 m-2 embed-responsive embed-responsive-4by3">
+                            <iframe title="Assigning Resources" class="embed-responsive-item" src="https://www.youtube.com/embed/F4gKuEPax88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center py-5">
+                        <div class="col-12 col-md-6 align-self-center">
+                            <div class="h5 font-weight-bold">PL&sup2; Admins</div>
+                            <p>As a PL&sup2; Admin you have additional functionality available
+                                in the app. This video covers those features. (Added Fall 2021)</p>
+                        </div>
+                        <div class="col-10 col-md-6 embed-responsive embed-responsive-16by9">
+                            <iframe title="Administrators" class="embed-responsive-item" src="https://www.youtube.com/embed/-wqVnjL4QaE" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+
+                        <div class="col">
+                            We've compiled several screenshots of other parts in PL&sup2;, including
+                            explanations for different features:
+                            <ul>
+                            <li>
+                                <a class="text-blue" target="_blank" href="https://docs.google.com/presentation/d/1-J97FQQz71sJpq6EUUZIX4WEbwPuKtR4evpLz_Bz8_U/edit?usp=sharing">Changing student goals</a>
+                            </li>
+                            <li>
+                                <a class="text-blue" target="_blank" href="https://docs.google.com/presentation/d/17EVYDeUN2uOnhOJdB-S0b-7dXrt04_bmg4ksl11NOrY/edit?usp=sharing">Modifying settings</a>
+                            </li>
+                            <li>
+                                <a class="text-blue" target="_blank" href="https://docs.google.com/presentation/d/1LW7t1TyStgZxdhS_mALW3eb8eU46LRfVVTAopCa47WQ/edit?usp=sharing">Understanding student status</a>
+                            </li>
+                            <li>
+                                <a class="text-blue" target="_blank" href="https://docs.google.com/presentation/d/1TBHc7jiCdThR5FDarggN7zZdMisir-skouQhSzdkk4s/edit?usp=sharing">Submitting Questions/Feedback</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            
+
+        </div>
+
+
+<!--
+        <div class="row mt-5 mb-3">
+            <div class="col">
+                <h1 class="h2 text-center">PL&sup2; Instructional Videos</h1>
+            </div>
+        </div>
+-->
+
+
+        </div>
+
+
+    </div> <!-- End Container -->
+
+    <div id="footer"></div>
+</div>
+  </body>
+</html>

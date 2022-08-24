@@ -1,0 +1,439 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  color:#000;
+  font-size: 1rem;
+
+}
+
+#navigation {
+  padding-top: 30px;
+  /*    padding-left: 5%;
+    padding-right: 5%;*/
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+#pl2-btn {
+  font-size: 0.8rem;
+}
+
+.use-pl2-btn {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.btn-outline-primary {
+  color: #3466bb;
+  border-color: #3466bb;
+  font-weight: 600;
+  border: solid 1px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #3466bb;
+  border-color: #3466bb;
+}
+
+.all-caps {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.margin-0 {
+  margin: 0;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #000;
+}
+.nav-item.active {
+  font-weight: 700 !important;
+}
+
+.inline {
+  display: inline;
+}
+
+.footer {
+  /*    position: absolute;
+    bottom: 0;*/
+  background-color: #000;
+  color: white;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 0.9rem;
+  font-weight: 300;
+  display: flex;
+  /*align-items: center;*/
+  margin-top: 60px;
+}
+/*
+.footer-item{
+    text-align: right;
+    color: #D9D9D9;
+    font-size: 0.85rem;
+}*/
+
+.footer-new {
+  background-color: #525252;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+#footer-email {
+  font-size: 0.85rem;
+}
+
+.footer-link {
+  color: white !important;
+  font-weight: 400;
+}
+
+#czi-logo,
+#rkmf-logo {
+  height: 3rem;
+  width: 3rem;
+  /* margin-top: 1rem; */
+}
+#rkmf-logo {
+  margin-left: 1rem;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.img-placeholder {
+  background-color: lightgray;
+  height: 400px;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer-collaborator-images img {
+  height: 2.3rem;
+  margin-right: 0.5rem;
+}
+
+
+.footer-collaborator-images img[src="images/pitt-logo.png"] {
+  margin-right: 0rem;
+}
+
+.footer-collaborator-images img[src="images/learnlab-logo-white.png"] {
+  position: relative;
+  bottom: 4px;
+  height: 1.3em;
+  margin-right: 0.6rem;
+}
+
+#rkmf-logo {
+  width: 1.9em;
+  height: 1.9em;
+  margin-right: 0rem;
+}
+
+#czi-logo {
+  height: 2em;
+  margin-right: -0.5rem;
+}
+
+
+.footer-collaborator-images img[src="images/plus-logo-2.svg"] {
+  position: relative;
+  right: 9px;
+  height: 90%; /** Not sure why, but the LL logo appears larger than others */
+}
+
+.footer-last-line {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#mc_embed_signup {
+  background-color: #525252;
+}
+
+/* #mc_embed_signup :focus {
+  background-color: #525252;
+  border: none;
+} */
+
+/* #mce-EMAIL {
+  background-color: #525252; 
+  border: none; 
+  border-bottom: 4px solid white; 
+  border-radius: 0
+} */
+
+#email-div input[type="email"] {
+  color: white;
+  background-color: #525252; 
+  border: none; 
+  border-bottom: 4px solid white; 
+  border-radius: 0
+}
+
+#email-div input[type="image"] {
+  position: relative;
+  right: 11px;
+}
+
+#email-div input[type="email"]:focus {
+  color: white;
+  outline: none;
+  caret-color: white;
+}
+
+#email-div input[type="email"]:autofill {
+  color: white;
+  background-color: #525252; 
+  outline: none;
+  caret-color: white;
+}
+
+
+#rainbow-bar-top {
+  position:fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 18px;
+  background: linear-gradient(90deg, #F3A0A2 0%, #F7C585 25.52%, #7EC1F8 47.92%, #A5CEBA 73.44%, #E6AB75 100%);
+}
+
+#rainbow-bar-top-cover {
+  position:fixed;
+  z-index:101;
+  top: 0px;
+  right: 0px;
+  height: 18px;
+  background-color: #FFFBF3;
+}
+
+#rainbow-bar-bottom {
+  width: 100vw;
+  height: 18px;
+  background: linear-gradient(90deg, #F3A0A2 0%, #F7C585 25.52%, #7EC1F8 47.92%, #A5CEBA 73.44%, #E6AB75 100%);
+}
+
+#cue-logo {
+  max-height: 170px;
+}
+
+/* secondary button for newsletter signup */
+
+.btn-secondary {
+  font-size: 0.9rem;
+  color: white;
+  background-color: #3466bb;
+  border-color: white;
+  font-weight: 600;
+  border: solid 1px;
+  border-radius: 3px;
+  padding: 7px 18px;
+}
+
+.btn-secondary:focus,
+.btn-secondary:hover {
+  background-color: white;
+  color: #3466bb;
+}
+
+h1,
+.h1 {
+  font-weight: 600;
+  font-size: 2.75rem;
+  font-family: Mulish, sans-serif;
+}
+
+h2,
+.h2 {
+  font-weight: 500;
+  font-size: 1.87rem;
+  font-family: Mulish, sans-serif;
+}
+
+h3,
+.h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: Mulish, sans-serif;
+}
+
+.dropdown-menu {
+  min-width: 50px;
+  left: auto !important;
+  top: auto !important;
+}
+
+.dropdown-item:hover {
+  color: #000 !important;
+}
+
+.dropdown-item:active {
+  background-color: transparent !important;
+}
+
+.debold {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .faq-title {
+    font-size: 1.25rem;
+  }
+
+  .home-slogan {
+    font-size: 7vw;
+  }
+
+  .carousel-text-area {
+    font-size: 1rem;
+  }
+
+  #home-blue-blur {
+    position:absolute;
+    top:75%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    filter: blur(30px);
+  }
+
+  #home-impact-yellow-blur {
+    position:absolute;
+    top:70%;
+    right:-25%;
+    width: 100px;
+    height: 100px;
+    background: #F8C362;
+    filter: blur(50px);
+    opacity: 0.9;
+    transform: rotate(-45deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .debold {
+    font-weight: 400;
+  }
+
+  .publication {
+    font-size: 1.1rem !important;
+  }
+
+  .faq-title {
+    font-size: 1.25rem;
+  }
+
+  .home-slogan {
+    font-size: 7vw;
+  }
+
+  .carousel-text-area {
+    font-size: 1.5rem;
+  }
+
+  #home-blue-blur {
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top:70%;
+    width: 200px;
+    height: 200px;
+    filter: blur(80px);
+  }
+
+  #home-impact-yellow-blur {
+    position:absolute;
+    top:100%;
+    right:-25%;
+    width: 50%;
+    height: 50%;
+    background: #F8C362;
+    filter: blur(80px);
+    opacity: 0.9;
+    transform: rotate(-45deg);
+  }
+}
+
+/* Accessibility fixes below */
+
+#about-nav > a,
+#research-nav > a,
+#impact-nav > a,
+#faq-nav > a {
+  /* adjustments to fix contrast fail */
+  color: rgb(97, 97, 97);
+}
+
+#about-nav > a:hover,
+#research-nav > a:hover,
+#impact-nav > a:hover,
+#faq-nav > a:hover {
+  /* adjustments to fix contrast fail */
+  color: rgb(0, 0, 0);
+}
+
+.active > a.nav-link {
+  color: #000 !important;
+}
+
+a {
+  color: #3466bb;
+}
+
+.fine-print {
+  color: lightgray;
+  font-size: 0.8rem;
+}
+
+.blue-background {
+  color: white;
+  background-color: #3466dd;
+}
+
+.light-blue-background {
+  background-color: #f1f4fa;
+}
+
+.s-red {
+  color: #bc4232;
+}
+
+.m-yellow {
+  color: #fcc33d;
+}
+
+.a-green {
+  color: #0f7453;
+}
+
+.t-purple {
+  color: #9a46ab;
+}
+
+.t-green {
+  color: #66AA5D;
+}
